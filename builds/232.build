@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>232 | Butter Babft Builds</title>
+    
+    <meta name="description" content="Download 232 for Butter Babft!">
+    <meta name="keywords" content="Build a Boat build files, BABFT build files, Build a Boat for Treasure build files, BABFT builds, Build a Boat builds, BABFT script, Butter hub">
+    <meta name="google-site-verification" content="hNnZr0qycP_PJ3JR3cstErExpHXFKocAMnp9uA3lsDo" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    
+    <!-- Preconnect & Preload API Connection for Zero Network Chain Latency -->
+    <link rel="preconnect" href="https://chatgptqq.com" crossorigin>
+    <link rel="dns-prefetch" href="https://chatgptqq.com">
+    <link rel="preload" as="fetch" href="https://chatgptqq.com/api/builds" crossorigin>
+    
+    <!-- Canonical & OpenGraph -->
+    <link rel="canonical" href="https://babft.com/">
+    <meta property="og:title" content="232 | Butter Babft Builds">
+    <meta property="og:description" content="Download 232 for Butter Babft!">
+    <meta property="og:image" content="https://chatgptqq.com/api/builds/image?path=232.build">
+    <meta property="og:url" content="https://babft.com/builds/232.build">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="232 | Butter Babft Builds">
+    <meta name="twitter:description" content="Download 232 for Butter Babft!">
+    <meta name="twitter:image" content="https://chatgptqq.com/api/builds/image?path=232.build">
+    <meta name="theme-color" content="#3b82f6">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "BABFT",
+      "alternateName": ["Build a Boat for Treasure", "BABFT Build Files", "Butter BABFT"],
+      "url": "https://babft.com/",
+      "description": "Official BABFT 3D build database and script hub for Roblox Build a Boat for Treasure."
+    }
+    </script>
+
+    <!-- FAQ Schema for Google Rich Enhancements -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What are BABFT build files?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BABFT build files (.build) are custom saved structures for Roblox Build a Boat for Treasure that can be loaded into the game using auto builders like the Butter script."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How do I load .build files into Build a Boat for Treasure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can download .build files from babft.com and load them directly into Roblox Build a Boat for Treasure using the Butter autobuilder script available at discord.gg/butterbuilder."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Where can I get the Butter script?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can get the official Butter script from the official Discord server at discord.gg/butterbuilder."
+        }
+      }]
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/butterhub.png">
+    <link rel="apple-touch-icon" href="/butterhub.png">
+    <style>
+:root {
+    --bg-color: #0f1115;
+    --text-color: #f1f5f9;
+    --text-muted: #cbd5e1;
+    --accent-color: #3b82f6;
+    --accent-hover: #2563eb;
+    --card-bg: rgba(30, 41, 59, 0.6);
+    --card-hover: rgba(30, 41, 59, 0.9);
+    --border-color: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% -20%, #1e3a8a 0%, transparent 60%);
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(to right, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    border: 1px solid var(--border-color);
+    background: rgba(15, 23, 42, 0.6);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+input[type="text"]:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+button {
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    border: none;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
+.api-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.api-config input {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    max-width: 200px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    margin: 2rem 0;
+}
+
+.error-msg {
+    text-align: center;
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: var(--glass-shadow);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    will-change: transform;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: var(--card-hover);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.card-img-container {
+    width: 100%;
+    aspect-ratio: 1;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.card:hover .card-img-container img {
+    transform: scale(1.05);
+}
+
+.placeholder {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    word-break: break-all;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    margin-top: 0.5rem;
+}
+
+.badge-download {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.2s;
+    z-index: 10;
+}
+
+.badge-download:hover {
+    background: rgba(16, 185, 129, 0.4);
+    color: #6ee7b7;
+}
+
+.badge-delete {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 10;
+}
+
+.badge-delete:hover {
+    background: rgba(239, 68, 68, 0.4);
+    color: #fca5a5;
+}
+
+.badge-rename {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: rgba(245, 158, 11, 0.2);
+    color: #fbbf24;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    z-index: 10;
+}
+
+.badge-rename:hover {
+    background: rgba(245, 158, 11, 0.4);
+    color: #fcd34d;
+}
+
+/* Admin Mode Styles */
+.admin-only {
+    display: none !important;
+}
+
+body.is-admin .admin-only {
+    display: inline-block !important;
+}
+
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal.hidden {
+    display: none !important;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-modal:hover {
+    color: white;
+}
+
+.modal-img-container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.modal-img-container img {
+    max-width: 100%;
+    max-height: 50vh;
+    object-fit: contain;
+}
+
+.modal-3d-container {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 50vh;
+    min-height: 300px;
+    position: relative;
+}
+
+.modal-3d-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+    outline: none;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(15, 23, 42, 0.8);
+    color: white;
+    border: 1px solid var(--border-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+    transition: all 0.2s;
+}
+.nav-arrow:hover {
+    background: var(--accent-color);
+    transform: translateY(-50%);
+    box-shadow: none;
+}
+.nav-arrow.left { left: 0.5rem; }
+.nav-arrow.right { right: 0.5rem; }
+
+.loading-dots::after {
+    content: ' . . .';
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: ''; }
+    40% { content: ' .'; }
+    60% { content: ' . .'; }
+    80%, 100% { content: ' . . .'; }
+}
+
+.btn-primary {
+    background: var(--accent-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--accent-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btn-danger {
+    background: #ef4444;
+    color: white;
+    margin-left: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-danger:hover {
+    background: #dc2626;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+}
+
+.admin-login-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.admin-login-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+body.is-admin .admin-login-btn {
+    background: rgba(16, 185, 129, 0.2);
+}
+
+.butter-highlight {
+    -webkit-text-fill-color: #a855f7;
+    color: #a855f7;
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.8), 0 0 40px rgba(168, 85, 247, 0.6);
+}
+
+.side-branding {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+    opacity: 0.07;
+    z-index: -1;
+    pointer-events: none;
+    user-select: none;
+}
+
+.side-branding.left {
+    left: 2rem;
+}
+
+.side-branding.right {
+    right: 2rem;
+}
+
+@media (max-width: 1300px) {
+    .side-branding {
+        display: none;
+    }
+}
+</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"></noscript>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://babft.com/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Builds",
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://babft.com/builds"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "232",
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://babft.com/builds/232.build"
+          }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80vw; z-index: -5; opacity: 0.005; pointer-events: none; user-select: none; text-align: center;">
+        <h2 style="font-size: 3rem; margin-bottom: 1rem;">About Butter Babft Builds</h2>
+        <p style="font-size: 1.5rem; line-height: 1.8;">
+            Butter Babft Builds is the premier custom build file sharing platform for the popular Roblox game, Build a Boat for Treasure. By utilizing the powerful 'Butter' script—available exclusively through our Discord community at discord.gg/butterbuilder—players can easily load, share, and experience massive 3D models and intricate custom boats that would be impossible to build manually. Our database hosts a wide variety of creations, from mechanical marvels to detailed replicas. Join the community, get the autobuilder, and elevate your Build a Boat for Treasure gameplay today!
+        </p>
+    </div>
+    <div class="side-branding left">
+        <img src="./butterhub.png" alt="Butter Hub" width="200" height="200" style="width: 100%; height: auto; filter: drop-shadow(0 0 20px #a855f7);" />
+    </div>
+    <div class="side-branding right">
+        <img src="./butterhub.png" alt="Butter Hub" width="200" height="200" style="width: 100%; height: auto; filter: drop-shadow(0 0 20px #a855f7);" />
+    </div>
+    
+    <button id="adminLoginBtn" class="admin-login-btn" title="Admin"></button>
+    <div class="container">
+        <header>
+            <h1><span class="butter-highlight">BABFT</span> Build Files</h1>
+            <p>Search, preview 3D models, and download custom .build files for Roblox Build a Boat for Treasure.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap;">
+                <a href="script.html" style="display: inline-flex; align-items: center; color: #4ade80; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.2s; background: rgba(30,41,59,0.6); padding: 0.55rem 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                    BABFT Script
+                </a>
+                <a href="articles" style="display: inline-flex; align-items: center; color: #38bdf8; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.2s; background: rgba(30,41,59,0.6); padding: 0.55rem 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                    Articles & Guides
+                </a>
+                <a href="faq" style="display: inline-flex; align-items: center; color: #fbbf24; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.2s; background: rgba(30,41,59,0.6); padding: 0.55rem 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                    FAQ & About
+                </a>
+                <a href="https://discord.gg/butterbuilder" target="_blank" style="display: inline-flex; align-items: center; color: #a78bfa; text-decoration: none; font-weight: 600; font-size: 1rem; transition: all 0.2s; background: rgba(30,41,59,0.6); padding: 0.55rem 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);">
+                    <img src="./butterhub.png" alt="Discord" width="24" height="24" style="width: 24px; height: 24px; vertical-align: middle; margin-right: 8px; border-radius: 50%;">
+                    Discord (10k+)
+                </a>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search builds by name..." />
+                <button id="searchButton">Search</button>
+            </div>
+
+        </header>
+
+        <main>
+            <div id="loading" class="hidden">Loading...</div>
+            <div id="error" class="error-msg hidden"></div>
+            <div class="grid" id="buildsGrid">
+                <!-- Builds will be populated here -->
+            </div>
+            <footer style="margin-top: 4rem; padding-top: 1.8rem; border-top: 1px solid rgba(255,255,255,0.08); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; color: #94a3b8; font-size: 0.9rem;">
+                <div>© 2026 babft.com & Butter. All Roblox Build a Boat for Treasure assets belong to their respective owners.</div>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="/" style="color: #94a3b8; text-decoration: none;">Home</a>
+                    <a href="/script.html" style="color: #94a3b8; text-decoration: none;">Script</a>
+                    <a href="/articles" style="color: #94a3b8; text-decoration: none;">Articles</a>
+                    <a href="/faq" style="color: #94a3b8; text-decoration: none;">FAQ</a>
+                    <a href="/privacy" style="color: #94a3b8; text-decoration: none;">Privacy Policy</a>
+                    <a href="https://discord.gg/butterbuilder" target="_blank" style="color: #94a3b8; text-decoration: none;">Discord</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Modal for build details -->
+    <div id="buildModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modalTitle">Build Name</h2>
+            <div style="background: rgba(167, 139, 250, 0.1); border: 1px solid rgba(167, 139, 250, 0.3); color: #a78bfa; padding: 1rem; border-radius: 8px; text-align: center; margin-bottom: 0.5rem; font-weight: 500;">
+                To load this build in-game, you need an autobuilder. We recommend joining <a href="https://discord.gg/butterbuilder" target="_blank" style="color: #fbbf24; text-decoration: underline;">discord.gg/butterbuilder</a>
+            </div>
+            <div id="modal3D" class="modal-3d-container">
+                <button id="modalPrevBtn" class="nav-arrow left">&lt;</button>
+                <button id="modalNextBtn" class="nav-arrow right">&gt;</button>
+                <div id="modal3DLoading" style="position:absolute; z-index: 10; color: white;">Loading 3D Model...</div>
+            </div>
+            <div class="modal-actions">
+                <a id="modalDownloadBtn" href="#" class="btn btn-primary" download>Download Build</a>
+                <button id="modalDeleteBtn" class="btn btn-danger admin-only">Delete Build</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3D libraries loaded on-demand when opening modal or on card hover -->
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.getElementById('searchInput');
+    const searchButton = document.getElementById('searchButton');
+    const adminLoginBtn = document.getElementById('adminLoginBtn');
+    const buildsGrid = document.getElementById('buildsGrid');
+    const loadingEl = document.getElementById('loading');
+    const errorEl = document.getElementById('error');
+
+    let apiBase = "https://chatgptqq.com";
+    let isAdmin = false;
+    let adminPassword = "";
+
+    let threeLoadedPromise = null;
+    function load3DScripts() {
+        if (threeLoadedPromise) return threeLoadedPromise;
+        threeLoadedPromise = new Promise((resolve, reject) => {
+            const s1 = document.createElement('script');
+            s1.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js';
+            s1.onload = () => {
+                let loaded = 0;
+                const s2 = document.createElement('script');
+                s2.src = 'https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/controls/OrbitControls.min.js';
+                const s3 = document.createElement('script');
+                s3.src = 'https://cdn.jsdelivr.net/npm/three@0.134.0/examples/js/loaders/GLTFLoader.min.js';
+                const check = () => { loaded++; if (loaded === 2) resolve(); };
+                s2.onload = check; s3.onload = check;
+                s2.onerror = reject; s3.onerror = reject;
+                document.head.appendChild(s2);
+                document.head.appendChild(s3);
+            };
+            s1.onerror = reject;
+            document.head.appendChild(s1);
+        });
+        return threeLoadedPromise;
+    }
+
+    function getHeaders(extraHeaders = {}) {
+        return {
+            'ngrok-skip-browser-warning': 'true',
+            ...extraHeaders
+        };
+    }
+
+    // Modal elements
+    const modal = document.getElementById('buildModal');
+    const closeBtn = document.querySelector('.close-modal');
+    const modalTitle = document.getElementById('modalTitle');
+    const modal3D = document.getElementById('modal3D');
+    const modal3DLoading = document.getElementById('modal3DLoading');
+    const modalDownloadBtn = document.getElementById('modalDownloadBtn');
+    const modalDeleteBtn = document.getElementById('modalDeleteBtn');
+    
+    let threeScene, threeCamera, threeRenderer, threeControls, animationId;
+    let currentBuild = null;
+    let currentBuildIndex = -1;
+    let allBuilds = [];
+    let currentRenderIndex = 0;
+    const CHUNK_SIZE = 50;
+    let initialLoadDone = false;
+    
+    const modalPrevBtn = document.getElementById('modalPrevBtn');
+    const modalNextBtn = document.getElementById('modalNextBtn');
+
+    modalPrevBtn.addEventListener('click', () => {
+        if (currentBuildIndex > 0) {
+            cleanup3D();
+            openModal(allBuilds[currentBuildIndex - 1], currentBuildIndex - 1);
+        }
+    });
+
+    modalNextBtn.addEventListener('click', () => {
+        if (currentBuildIndex !== -1 && currentBuildIndex < allBuilds.length - 1) {
+            cleanup3D();
+            openModal(allBuilds[currentBuildIndex + 1], currentBuildIndex + 1);
+        }
+    });
+
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                if (img.dataset.src) {
+                    img.src = img.dataset.src;
+                    img.removeAttribute('data-src');
+                }
+                observer.unobserve(img);
+            }
+        });
+    }, { rootMargin: "0px 0px 1500px 0px" });
+
+    // Initial load
+    fetchBuilds();
+
+    searchButton.addEventListener('click', () => {
+        fetchBuilds(searchInput.value);
+    });
+
+    searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            fetchBuilds(searchInput.value);
+        }
+    });
+
+    adminLoginBtn.addEventListener('click', async () => {
+        if (isAdmin) {
+            isAdmin = false;
+            adminPassword = "";
+            document.body.classList.remove('is-admin');
+            return;
+        }
+
+        const pw = prompt("Enter admin password:");
+        if (!pw) return;
+
+        try {
+            const loginUrlStr = apiBase ? `${apiBase}/api/admin/login` : `/api/admin/login`;
+            const url = new URL(loginUrlStr, window.location.origin).toString();
+            const res = await fetch(url, {
+                method: 'POST',
+                headers: getHeaders({'Content-Type': 'application/json'}),
+                body: JSON.stringify({password: pw})
+            });
+            if (res.ok) {
+                isAdmin = true;
+                adminPassword = pw;
+                document.body.classList.add('is-admin');
+            } else {
+                alert("Invalid password.");
+            }
+        } catch (err) {
+            alert("Error connecting to server.");
+        }
+    });
+
+    async function fetchBuilds(query = '') {
+        showLoading(true);
+        hideError();
+        buildsGrid.innerHTML = '';
+        allBuilds = [];
+        currentRenderIndex = 0;
+
+        try {
+            const urlStr = apiBase ? `${apiBase}/api/builds` : '/api/builds';
+            const url = new URL(urlStr, window.location.origin);
+            
+            let formattedQuery = query.trim().replace(/ /g, '_');
+            if (formattedQuery) url.searchParams.append('q', formattedQuery);
+
+            const response = await fetch(url, { headers: getHeaders() });
+            if (!response.ok) throw new Error(`API Error: ${response.status}`);
+            
+            const data = await response.json();
+            
+            if (data.builds.length === 0) {
+                showError('No builds found matching your search.');
+            } else {
+                allBuilds = data.builds;
+
+                if (!initialLoadDone && window.location.pathname.startsWith('/builds/')) {
+                    const requestedPath = window.location.pathname.replace('/builds/', '');
+                    const requestedFilename = decodeURIComponent(requestedPath);
+                    const foundBuildIndex = allBuilds.findIndex(b => b.filename === requestedFilename);
+                    if (foundBuildIndex !== -1) {
+                        openModal(allBuilds[foundBuildIndex], foundBuildIndex);
+                    }
+                    initialLoadDone = true;
+                }
+
+                renderNextChunk();
+            }
+        } catch (err) {
+            console.error('Fetch error:', err);
+            showError(`Failed to fetch builds: ${err.message}. Make sure the API is running at ${apiBase}`);
+        } finally {
+            showLoading(false);
+        }
+    }
+
+    function renderNextChunk() {
+        if (currentRenderIndex >= allBuilds.length) return;
+        
+        const chunk = allBuilds.slice(currentRenderIndex, currentRenderIndex + CHUNK_SIZE);
+        renderBuilds(chunk, currentRenderIndex);
+        currentRenderIndex += CHUNK_SIZE;
+    }
+
+    let cachedScrollHeight = 0;
+    let scrollThrottleTimeout = null;
+    window.addEventListener('scroll', () => {
+        if (scrollThrottleTimeout) return;
+        scrollThrottleTimeout = setTimeout(() => {
+            scrollThrottleTimeout = null;
+            if (!cachedScrollHeight || currentRenderIndex % 50 === 0) {
+                cachedScrollHeight = document.documentElement.scrollHeight;
+            }
+            if (window.innerHeight + window.scrollY >= cachedScrollHeight - 800) {
+                renderNextChunk();
+            }
+        }, 100);
+    }, { passive: true });
+
+    function renderBuilds(builds, startIndex = 0) {
+        const BATCH_SIZE = 10;
+        let localIdx = 0;
+
+        function renderChunk() {
+            const limit = Math.min(localIdx + BATCH_SIZE, builds.length);
+            for (; localIdx < limit; localIdx++) {
+                const build = builds[localIdx];
+                const index = startIndex + localIdx;
+                const card = document.createElement('div');
+                card.className = 'card';
+
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'card-img-container';
+
+                const imageUrl = `${apiBase}/api/builds/image?path=${encodeURIComponent(build.path)}`;
+                
+                const img = document.createElement('img');
+                img.alt = build.filename;
+                img.width = 300;
+                img.height = 180;
+                
+                if (index < 4) {
+                    img.setAttribute('fetchpriority', 'high');
+                    img.src = imageUrl;
+                } else {
+                    img.loading = "lazy";
+                    img.dataset.src = imageUrl;
+                    imageObserver.observe(img);
+                }
+                
+                img.onerror = () => {
+                    img.style.display = 'none';
+                    const placeholder = document.createElement('div');
+                    placeholder.className = 'placeholder';
+                    placeholder.innerHTML = '<span>rendering image...</span><small>(refresh later)</small>';
+                    imgContainer.appendChild(placeholder);
+                };
+                
+                imgContainer.appendChild(img);
+
+                const content = document.createElement('div');
+                content.className = 'card-content';
+                
+                const title = document.createElement('div');
+                title.className = 'card-title';
+                title.textContent = build.filename.replace('.build', '');
+                
+                const downloadBtn = document.createElement('button');
+                downloadBtn.className = 'badge-download';
+                downloadBtn.textContent = 'Download .build';
+                downloadBtn.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    try {
+                        const dlUrlStr = apiBase ? `${apiBase}/api/builds/download?path=${encodeURIComponent(build.path)}` : `/api/builds/download?path=${encodeURIComponent(build.path)}`;
+                        const res = await fetch(new URL(dlUrlStr, window.location.origin).toString(), { headers: getHeaders() });
+                        if (res.ok) {
+                            const blob = await res.blob();
+                            const objUrl = URL.createObjectURL(blob);
+                            const a = document.createElement('a');
+                            a.href = objUrl;
+                            a.download = build.filename;
+                            a.click();
+                            URL.revokeObjectURL(objUrl);
+                        } else {
+                            alert("Download failed.");
+                        }
+                    } catch(err) {
+                        alert("Download error: " + err);
+                    }
+                });
+
+                const deleteBtn = document.createElement('button');
+                deleteBtn.className = 'badge-delete admin-only';
+                deleteBtn.textContent = 'Delete';
+                deleteBtn.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    await requestDelete(build);
+                });
+
+                const renameBtn = document.createElement('button');
+                renameBtn.className = 'badge-rename admin-only';
+                renameBtn.textContent = 'Rename';
+                renameBtn.addEventListener('click', async (e) => {
+                    e.stopPropagation();
+                    await requestRename(build);
+                });
+
+                const actionContainer = document.createElement('div');
+                actionContainer.appendChild(downloadBtn);
+                actionContainer.appendChild(renameBtn);
+                actionContainer.appendChild(deleteBtn);
+
+                content.appendChild(title);
+                content.appendChild(actionContainer);
+
+                card.appendChild(imgContainer);
+                card.appendChild(content);
+                
+                card.addEventListener('mouseenter', load3DScripts, { once: true });
+                card.addEventListener('click', () => {
+                    const idx = allBuilds.findIndex(b => b.path === build.path);
+                    openModal(build, idx);
+                });
+
+                buildsGrid.appendChild(card);
+            }
+
+            if (localIdx < builds.length) {
+                requestAnimationFrame(renderChunk);
+            }
+        }
+
+        renderChunk();
+    }
+
+    function showLoading(show) {
+        if (show) {
+            loadingEl.classList.remove('hidden');
+        } else {
+            loadingEl.classList.add('hidden');
+        }
+    }
+
+    function showError(msg) {
+        errorEl.textContent = msg;
+        errorEl.classList.remove('hidden');
+    }
+
+    function hideError() {
+        errorEl.classList.add('hidden');
+    }
+
+    async function requestDelete(build) {
+        if (!isAdmin || !adminPassword) {
+            alert("You must be logged in as an admin to delete builds.");
+            return;
+        }
+        if (!confirm(`Are you sure you want to delete ${build.filename}?`)) return;
+        
+        try {
+            const delUrlStr = apiBase ? `${apiBase}/api/builds/delete` : `/api/builds/delete`;
+            const url = new URL(delUrlStr, window.location.origin).toString();
+            const res = await fetch(url, {
+                method: 'POST',
+                headers: getHeaders({'Content-Type': 'application/json'}),
+                body: JSON.stringify({path: build.path, password: adminPassword})
+            });
+            if (res.ok) {
+                modal.classList.add('hidden');
+                cleanup3D();
+                fetchBuilds(searchInput.value);
+            } else {
+                alert("Delete failed: " + (await res.text()));
+            }
+        } catch (err) {
+            alert("Error: " + err);
+        }
+    }
+
+    async function requestRename(build) {
+        if (!isAdmin || !adminPassword) {
+            alert("You must be logged in as an admin to rename builds.");
+            return;
+        }
+        const currentName = build.filename.replace('.build', '');
+        const newName = prompt("Enter new name for the build:", currentName);
+        if (!newName || newName === currentName) return;
+        
+        let formattedName = newName.trim().replace(/ /g, '_');
+        
+        try {
+            const renameUrlStr = apiBase ? `${apiBase}/api/builds/rename` : `/api/builds/rename`;
+            const url = new URL(renameUrlStr, window.location.origin).toString();
+            const res = await fetch(url, {
+                method: 'POST',
+                headers: getHeaders({'Content-Type': 'application/json'}),
+                body: JSON.stringify({path: build.path, password: adminPassword, new_name: formattedName})
+            });
+            if (res.ok) {
+                fetchBuilds(searchInput.value);
+            } else {
+                alert("Rename failed: " + (await res.text()));
+            }
+        } catch (err) {
+            alert("Error: " + err);
+        }
+    }
+
+    modalDeleteBtn.addEventListener('click', async () => {
+        if (currentBuild) {
+            await requestDelete(currentBuild);
+        }
+    });
+
+    function openModal(build, index = -1) {
+        currentBuildIndex = index;
+        currentBuild = build;
+        modalTitle.textContent = build.filename.replace('.build', '');
+        
+        // Push state for dynamic build URL
+        history.pushState(null, '', '/builds/' + encodeURIComponent(build.filename));
+        
+        modalPrevBtn.style.display = index > 0 ? 'flex' : 'none';
+        modalNextBtn.style.display = index !== -1 && index < allBuilds.length - 1 ? 'flex' : 'none';
+        
+        modalDownloadBtn.onclick = async (e) => {
+            e.preventDefault();
+            try {
+                const dlUrlStr = apiBase ? `${apiBase}/api/builds/download?path=${encodeURIComponent(build.path)}` : `/api/builds/download?path=${encodeURIComponent(build.path)}`;
+                const res = await fetch(new URL(dlUrlStr, window.location.origin).toString(), { headers: getHeaders() });
+                if (res.ok) {
+                    const blob = await res.blob();
+                    const objUrl = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = objUrl;
+                    a.download = build.filename;
+                    a.click();
+                    URL.revokeObjectURL(objUrl);
+                } else {
+                    alert("Download failed.");
+                }
+            } catch(err) {
+                alert("Download error: " + err);
+            }
+        };
+
+        modal.classList.remove('hidden');
+        
+        // Show temp image while rendering
+        const imageUrl = `${apiBase}/api/builds/image?path=${encodeURIComponent(build.path)}`;
+        const loadingImg = document.createElement('img');
+        loadingImg.src = imageUrl;
+        loadingImg.style.width = '100%';
+        loadingImg.style.height = '100%';
+        loadingImg.style.objectFit = 'contain';
+        loadingImg.style.opacity = '0.3';
+        loadingImg.style.position = 'absolute';
+        loadingImg.style.top = '0';
+        loadingImg.style.left = '0';
+        loadingImg.id = 'modalTempImg';
+        
+        const existingImg = document.getElementById('modalTempImg');
+        if (existingImg) existingImg.remove();
+        modal3D.appendChild(loadingImg);
+        
+        requestAnimationFrame(async () => {
+            await load3DScripts();
+            init3D();
+            loadModel(build.path);
+        });
+    }
+    
+    function closeModal() {
+        cleanup3D();
+        modal.classList.add('hidden');
+        if (window.location.pathname.startsWith('/builds/')) {
+            history.pushState(null, '', '/');
+        }
+    }
+
+    closeBtn.addEventListener('click', closeModal);
+
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeModal();
+        }
+    });
+
+    function init3D() {
+        const width = modal3D.clientWidth;
+        const height = modal3D.clientHeight;
+        
+        if (!threeRenderer) {
+            threeRenderer = new THREE.WebGLRenderer({ antialias: false, powerPreference: 'high-performance' });
+            threeRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.0)); // Cap pixel ratio to 1 for speed
+            modal3D.appendChild(threeRenderer.domElement);
+        }
+        threeRenderer.setSize(width, height);
+        
+        threeScene = new THREE.Scene();
+        threeScene.background = new THREE.Color(0x80b3e6);
+        
+        const ambientLight = new THREE.AmbientLight(0x666666);
+        threeScene.add(ambientLight);
+        
+        const dirLight = new THREE.DirectionalLight(0xffffff, 1.5);
+        dirLight.position.set(5, 10, 7);
+        threeScene.add(dirLight);
+
+        threeCamera = new THREE.PerspectiveCamera(60, width / height, 0.1, 1000);
+        
+        threeControls = new THREE.OrbitControls(threeCamera, threeRenderer.domElement);
+        threeControls.enableDamping = true;
+        threeControls.dampingFactor = 0.2; // Snappier movement
+        threeControls.panSpeed = 1.2;
+        threeControls.zoomSpeed = 1.2;
+        
+        modal3DLoading.style.display = 'block';
+        modal3DLoading.innerHTML = '<span class="loading-dots" style="font-weight: 600; font-size: 1.2rem; background: rgba(0,0,0,0.5); padding: 0.5rem 1rem; border-radius: 8px;">Rendering 3D Model</span>';
+
+        if (animationId) cancelAnimationFrame(animationId);
+        const animate = function () {
+            animationId = requestAnimationFrame(animate);
+            if (threeControls) threeControls.update();
+            if (threeRenderer && threeScene && threeCamera) {
+                threeRenderer.render(threeScene, threeCamera);
+            }
+        };
+        animate();
+    }
+    
+    function loadModel(path) {
+        const loader = new THREE.GLTFLoader();
+        loader.setRequestHeader(getHeaders());
+        const modelUrlStr = apiBase ? `${apiBase}/api/builds/model?path=${encodeURIComponent(path)}` : `/api/builds/model?path=${encodeURIComponent(path)}`;
+        const url = new URL(modelUrlStr, window.location.origin).toString();
+        
+        loader.load(url, (gltf) => {
+            modal3DLoading.style.display = 'none';
+            const existingImg = document.getElementById('modalTempImg');
+            if (existingImg) existingImg.style.display = 'none';
+            
+            // Optimize materials for much faster rendering
+            gltf.scene.traverse((child) => {
+                if (child.isMesh && child.material) {
+                    const m = child.material;
+                    child.material = new THREE.MeshPhongMaterial({
+                        color: m.color || new THREE.Color(0xffffff),
+                        vertexColors: m.vertexColors, // Crucial: preserve vertex coloring
+                        transparent: m.transparent || false,
+                        opacity: m.opacity || 1.0,
+                        flatShading: true // Much cheaper to render than smooth standard material
+                    });
+                }
+            });
+            
+            threeScene.add(gltf.scene);
+            
+            const box = new THREE.Box3().setFromObject(gltf.scene);
+            const center = box.getCenter(new THREE.Vector3());
+            const size = box.getSize(new THREE.Vector3());
+            const maxDim = Math.max(size.x, size.y, size.z);
+            
+            threeControls.target.copy(center);
+            threeCamera.position.copy(center);
+            threeCamera.position.z += maxDim * 1.5;
+            threeCamera.position.y += maxDim * 0.5;
+            threeCamera.lookAt(center);
+        }, undefined, (error) => {
+            console.error('Error loading 3D model:', error);
+            modal3DLoading.innerHTML = '<span style="color: #ef4444; background: rgba(0,0,0,0.7); padding: 0.5rem; border-radius: 4px;">Failed to load model.</span>';
+        });
+    }
+    
+    function cleanup3D() {
+        if (animationId) cancelAnimationFrame(animationId);
+        if (threeScene) {
+            threeScene.clear();
+        }
+        threeCamera = null;
+        if (threeControls) {
+            threeControls.dispose();
+            threeControls = null;
+        }
+        const existingImg = document.getElementById('modalTempImg');
+        if (existingImg) existingImg.remove();
+        modal3DLoading.innerHTML = '<span class="loading-dots">Rendering 3D Model</span>';
+    }
+
+    closeBtn.addEventListener('click', () => {
+        cleanup3D();
+        modal.classList.add('hidden');
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            cleanup3D();
+            modal.classList.add('hidden');
+        }
+    });
+});
+
+</script>
+</body>
+</html>
