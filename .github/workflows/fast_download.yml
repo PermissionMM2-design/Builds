@@ -10,11 +10,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download .build files
+      - name: Download .build files by ID range
         run: |
           mkdir -p builds
-          # Скачивание всех .build файлов через wget
-          wget -r -l 5 -A "*.build" -P builds/ https://babft.com/ || true
+          cd builds
+          # Скачиваем файлы по номерам от 1 до 500 (настройте диапазон)
+          for id in $(seq 1 500); do
+            curl -s -O "https://babft.com/builds/${id}.build" || true
+          done
 
       - name: Commit and Push files
         run: |
