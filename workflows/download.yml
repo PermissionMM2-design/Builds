@@ -1,0 +1,43 @@
+name: Fast Full Download babft.com
+
+on:
+  workflow_dispatch: # Запуск вручную по кн��пке
+
+jobs:
+  fast-download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Aria2
+        run: sudo apt-get update && sudo apt-get install -y aria2 wget
+
+      - name: Fast download all files
+        run: |
+          # 1. Быстро собираем список всех ссылок на сайте
+          wget --spider --recursive --no-verbose --domains babft.com https://babft.com/ 2>&1 | grep '^http' | sort -u > urls.txt || true
+
+          # 2. Если ссылки найдены, качаем их параллельно в 16 потоков
+          if [ -s urls.txt ]; then
+            aria2c -i urls.txt -j 16 -x 16 -s 16 --auto-file-renaming=false --allow-overwrite=true || true
+            rm urls.txt
+          else
+            # Резервный параллельный скачиватель через wget
+            wget --mirror \
+                 --page-requisites \
+                 --convert-links \
+                 --no-host-directories \
+                 --no-wait \
+                 --domains babft.com \
+                 --user-agent="Mozilla/5.0" \
+                 https://babft.com/ || true
+          fi
+
+      - name: Save files to Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --staged --quiet || (git commit -m "Instant download of babft.com" && git push)
